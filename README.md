@@ -25,7 +25,7 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
-
+```
 ## PROGRAM:
 
 /*
@@ -33,11 +33,12 @@ Program to print the text “ExplicitIntent”.
 Developed by: SAKTHIVEL B
 Registeration Number : 212222040141
 */
+```
 
 
 ## MainActivity.java:
 
-
+```
 package com.example.workshop;
 
 import android.os.Bundle;
@@ -88,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-
+```
 ## MainActivity2.java:
-
+```
 
 package com.example.workshop;
 
@@ -125,11 +126,11 @@ public class MainActivity2 extends AppCompatActivity {
     }
 }
 
-
+```
 
 ## activity_main.xml:
 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -192,11 +193,11 @@ public class MainActivity2 extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
+```
 
 ## activity_second.xml:
 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -279,7 +280,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 </manifest>
 
-
+```
 ## OUTPUT
 
 ![WhatsApp Image 2024-10-24 at 10 40 50 AM](https://github.com/user-attachments/assets/eae6a5eb-2f30-4d83-a707-0d611ad08636)
